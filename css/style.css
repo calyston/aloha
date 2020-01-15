@@ -1,0 +1,207 @@
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+body {
+  font: #2d2d2d;
+  font-size: 16px;
+  font-family: "Raleway", sans-serif;
+}
+
+a.hover {
+  color: #b64036;
+}
+/* Header Section*/
+
+/* Logo */
+/* Do logo css here */
+
+header li {
+  color: #e2574c;
+  text-transform: uppercase;
+}
+
+/* Cart */
+/* Do cart css here */
+
+/* Hero Section */
+.hero-banner {
+  width: 100%;
+  height: 400px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("../images/banner-girl.png"), url("../images/flower-bkgd.jpg");
+  background-position: left, center 50px, center;
+  background-repeat: repeat, no-repeat, repeat;
+  background-size: cover, contain, cover;
+}
+
+.hero-banner p,
+.hero-banner h2 {
+  color: white;
+  text-align: center;
+}
+
+/* About Section*/
+.italic {
+  font-style: italic;
+}
+
+.bold {
+  font-weight: bold;
+}
+h2 {
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  padding: 20px;
+}
+
+.about p {
+  line-height: 2;
+}
+
+/*Shop Grid*/
+.shop-grid {
+  width: 100%;
+  height: 400px;
+}
+
+.shop-grid div {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  width: 100%;
+  margin: 20px;
+}
+
+.shop-grid span {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#mens-category {
+  background-image: url("../images/mens-category.jpg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  float: left;
+  width: 50%;
+  height: 200px;
+}
+
+#trends-category {
+  background-image: url("../images/trends-category.jpg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 25%;
+  height: 200px;
+}
+
+#glasses-category {
+  background-image: url("../images/glasses-category.jpg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 25%;
+  height: 200px;
+}
+#sale-category {
+  background-image: url("../images/sale-category.jpg");
+  background-size: cover;
+}
+#bags-category {
+  background-image: url("../images/bags-category.jpg");
+  background-size: cover;
+}
+#womens-category {
+  background-image: url("../images/womens-category.jpg");
+  background-size: cover;
+}
+
+/* Featured Products */
+
+.center {
+  text-align: center;
+}
+
+h3 {
+  color: #e2574c;
+  margin: 20px;
+  font-family: "Playfair Display", serif;
+}
+
+.featured p {
+  color: #969696;
+  text-transform: uppercase;
+}
+
+.featured button {
+  color: white;
+  font-weight: bold;
+  font-family: "Raleway", sans-serif;
+  background-color: #242424;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 15px;
+  margin: 20px;
+}
+/* Updates */
+.updates {
+  color: #ffffff;
+  width: 100%;
+  height: 175px;
+  background-image: url("../images/wave-bkgd.jpg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  line-height: 1.6;
+}
+
+/* Subscribe */
+
+.input {
+  color: #2d2d2d;
+  font-family: "Raleway", sans-serif;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 18px;
+  margin: 20px;
+}
+
+.subscribe {
+  color: #ffffff;
+  font-weight: bold;
+  font-family: "Raleway", sans-serif;
+  background-color: #e2574c;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 18px;
+  margin: 20px;
+}
+
+/* Footer */
+footer {
+  color: #ffffff;
+  background-color: #242424;
+  padding: 50px;
+}
+footer p {
+  font-family: "Playfair Display", serif;
+  padding: 10px;
+  line-height: 2;
+}
+.grey-font {
+  color: #969696;
+}
+
+footer a {
+  color: #ffffff;
+}
+
+i {
+  margin: 10px;
+}

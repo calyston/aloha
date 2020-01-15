@@ -4,13 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <script
       src="https://kit.fontawesome.com/74fdfd1d95.js"
       crossorigin="anonymous"
     ></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Playfair+Display|Raleway:300&display=swap"
+      rel="stylesheet">
     <title>Aloha</title>
   </head>
-  <body>
+  <body class="container">
     <header>
       <nav>
         <div>
@@ -31,46 +36,49 @@
     </header>
     <!-- Main site content goes here -->
     <main>
-      <section>
+      <section class="hero-banner">
         <!-- Hero section -->
         <p>New Collection</p>
         <h2>Winter 2020</h2>
       </section>
-      <section>
+      <section class="about">
         <!-- About -->
-        <h2><em>Hand-Crafted</em> <strong>Styles</strong></h2>
-        <p>
+        <h2>
+          <span class="italic">Hand-Crafted</span>
+          <span class="bold">Styles</span>
+        </h2>
+        <p class="center">
           Aloha Apparel Co. sells only the finest ready-to-travel clothing.
           Browse our current selection of products or sign-up for updates below.
         </p>
       </section>
-      <section>
+      <section class="shop-grid">
         <!-- Shop grid -->
         <div>
-          <span>Men's</span>
+          <span id="mens-category">Men's</span>
         </div>
         <div>
-          <span>Trends</span>
+          <span id="trends-category">Trends</span>
         </div>
         <div>
-          <span>Glasses</span>
+          <span id="glasses-category">Glasses</span>
         </div>
         <div>
-          <span>Sale</span>
+          <span id="sale-category">Sale</span>
         </div>
         <div>
-          <span>Bags</span>
+          <span id="bags-category">Bags</span>
         </div>
         <div>
-          <span>Women's</span>
+          <span id="womens-category">Women's</span>
         </div>
       </section>
-      <section>
+      <section class="featured">
         <!-- Featured -->
-        <h2><em>Most-Loved</em> <strong>Products</strong></h2>
+        <h2><span class="italic">Most-Loved</span> <span class="bold">Products</span></h2>
         <div>
           <!-- Featured products -->
-          <figure>
+          <figure class="center">
             <img
               src="images/stretch-knit-dress.jpg"
               alt="black dress with white polka dots"
@@ -80,7 +88,7 @@
             <p>$169.00</p>
             <button>Add to Cart</button>
           </figure>
-          <figure>
+          <figure class="center">
             <img
               src="images/cotton-blue-shirt.jpg"
               alt="blue denim-style shirt"
@@ -90,7 +98,7 @@
             <p>$89.00</p>
             <button>Add to Cart</button>
           </figure>
-          <figure>
+          <figure class="center">
             <img
               src="images/checked-stretch-dress.jpg"
               alt="red checked dress"
@@ -100,7 +108,7 @@
             <p>$129.00</p>
             <button>Add to Cart</button>
           </figure>
-          <figure>
+          <figure class="center">
             <img
               src="images/blue-hipster-backpack.jpg"
               alt="dark blue backpack with red straps"
@@ -110,7 +118,7 @@
             <p>$69.00</p>
             <button>Add to Cart</button>
           </figure>
-          <figure>
+          <figure class="center">
             <img
               src="images/demin-overall-shorts.jpg"
               alt="blue denim overall shorts"
@@ -120,7 +128,7 @@
             <p>$89.00</p>
             <button>Add to Cart</button>
           </figure>
-          <figure>
+          <figure class="center">
             <img
               src="images/pink-dotted-dress.jpg"
               alt="pink dress with black dots"
@@ -130,14 +138,14 @@
             <p>$99.00</p>
             <button>Add to Cart</button>
           </figure>
-          <figure>
+          <figure class="center">
             <img src="images/cotton-yellow-tshirt.jpg" alt="yellow tshirt" />
             <p>Tshirts</p>
             <h3>Yellow Cotton Tshirt</h3>
             <p>$59.00</p>
             <button>Add to Cart</button>
           </figure>
-          <figure>
+          <figure class="center">
             <img src="images/blue-silk-dress.jpg" alt="blue silk dress" />
             <p>Dresses</p>
             <h3>Blue Silk Dress</h3>
@@ -146,28 +154,28 @@
           </figure>
         </div>
       </section>
-      <section>
+      <section class="updates">
         <!-- Updates -->
-        <h2><em>Sign-up for</em> <strong>Updates</strong></h2>
-        <p>
+        <h2><span class="italic">Sign-up for</span> <span class="bold">Updates</span></h2>
+        <p class="center">
           Stay updated on our latest product releases, be the first to find out
           about upcoming sales, and get free style tips from our blog.
           Unsubscribe at any time.
         </p>
-        <form>
-          <input type="email" placeholder="Your Email" />
-          <input type="submit" value="Subscribe" />
+        <form class="center">
+          <input type="email" placeholder="Your Email" class="input"/>
+          <input type="submit" value="Subscribe" class="subscribe"/>
         </form>
-      </section>
+      </section c>
     </main>
     <footer>
       <div>
-        <p>&copy 2020 Aloha Apparel<br />Powered by HTML and CSS.</p>
+        <p>&copy 2020 Aloha Apparel Co.<br />Powered by HTML and CSS.</p>
         <p>
           604-604-6040.
           <a href="mailto: info@alohaapparel.com">info@alohaapparel.com</a>
         </p>
-        <p>1490 W Broadway<br />Vancouver, BC, Canada</p>
+        <p class="grey-font">1490 W Broadway<br />Vancouver, BC, Canada</p>
       </div>
       <div>
         <ul>
