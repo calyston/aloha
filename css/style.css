@@ -9,6 +9,19 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
+.nav {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  width: auto;
+  height: 150px;
+}
+
+.nav img {
+  width: 100px;
+  height: 100px;
+}
+
 a.hover {
   color: #b64036;
 }
@@ -20,28 +33,23 @@ a.hover {
   float: left;
   margin: 0 auto;
   padding: 10px;
-  width: 100px;
-  height: 100px;
 }
 
-header li {
+.nav li {
   color: #e2574c;
   text-transform: uppercase;
   float: left;
-  margin: 0 auto;
-  padding: 10px;
-  justify-content: center;
-  align-items: center;
+  padding: 5px;
+  width: 100%;
 }
 
 /* Cart */
-/* Do cart css here */
 .cart {
-  float: right;
+  float: left;
   margin: 0 auto;
   padding: 10px;
-  width: 100px;
-  height: 100px;
+  width: 50px;
+  height: 50px;
 }
 /* Hero Section */
 .hero-banner {
@@ -72,6 +80,13 @@ h2 {
   font-family: "Playfair Display", serif;
   text-align: center;
   padding: 20px;
+  font-size: 24px;
+}
+
+.about {
+  padding: 40px;
+  justify-content: center;
+  align-items: center;
 }
 
 .about p {
@@ -80,96 +95,82 @@ h2 {
 
 /*Shop Grid*/
 
-#shop-grid {
+.shop-grid {
   display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-flow: row wrap;
   align-content: flex-start;
   width: auto;
+  height: 815px;
 }
 
-/* .shop-grid {
-  margin: 1rem 0;
-  width: 100%;
-  height: 400px;
+.shop-grid div {
+  width: auto;
+  height: 200px;
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-between;
-  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
 }
 
 .shop-grid span {
   color: white;
   text-transform: uppercase;
+  font-weight: bold;
+  font-size: 24px;
 }
 
 .item {
-  font-size: 24px;
-  font-weight: bold;
-  width: 100%;
+  width: auto;
   height: 200px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  align-content: center;
 }
 
 .item:nth-child(1) {
-  width: 100%;
-  height: 200px;
   background-image: url("../images/mens-category.jpg");
-  background-size: contain;
-  background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
-  flex-grow: 2;
+  flex-basis: 100%;
 }
+
 .item:nth-child(2) {
-  width: 50%;
-  height: 200px;
   background-image: url("../images/trends-category.jpg");
-  background-size: contain;
-  background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
-  flex-grow: 1;
+  flex-basis: 49%;
 }
 .item:nth-child(3) {
-  width: 50%;
-  height: 200px;
   background-image: url("../images/glasses-category.jpg");
-  background-size: contain;
-  background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
-  flex-grow: 1;
+  flex-basis: 49%;
 }
 .item:nth-child(4) {
-  width: 50%;
-  height: 200px;
   background-image: url("../images/sale-category.jpg");
-  background-size: contain;
-  background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
-  flex-grow: 1;
+  flex-basis: 49%;
 }
+
 .item:nth-child(5) {
-  width: 50%;
-  height: 200px;
   background-image: url("../images/bags-category.jpg");
-  background-size: contain;
-  background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
-  flex-grow: 1;
+  flex-basis: 49%;
 }
 .item:nth-child(6) {
-  width: 100%;
-  height: 200px;
   background-image: url("../images/womens-category.jpg");
-  background-size: contain;
-  background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
-  flex-grow: 2;
-} */
+  flex-basis: 100%;
+}
 /* Featured Products */
+.featured {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: auto;
+  height: 510px;
+}
 
 .center {
   text-align: center;
