@@ -20,9 +20,8 @@ a.hover {
   float: left;
   margin: 0 auto;
   padding: 10px;
-  width: 200px;
-  height: 200px;
-  object-fit: contain;
+  width: 100px;
+  height: 100px;
 }
 
 header li {
@@ -82,7 +81,7 @@ h2 {
 /*Shop Grid*/
 .shop-grid {
   max-width: 1240px;
-  margin: 0 auto;
+  margin: 1rem 0;
   height: 400px;
   display: flex;
   flex-wrap: wrap;
@@ -104,52 +103,64 @@ h2 {
 }
 
 .item:nth-child(1) {
-  width: 50%;
-  height: 100%;
+  width: 0.5rem;
+  height: 200px;
   background-image: url("../images/mens-category.jpg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
+  flex-grow: 1;
+  flex-basis: 200px;
 }
 .item:nth-child(2) {
-  width: 25%;
+  width: 0.25rem;
   height: 200px;
   background-image: url("../images/trends-category.jpg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
+  flex-grow: 1;
+  flex-basis: 200px;
 }
 .item:nth-child(3) {
-  width: 25%;
+  width: 0.25rem;
   height: 200px;
   background-image: url("../images/glasses-category.jpg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
+  flex-grow: 1;
+  flex-basis: 200px;
 }
 .item:nth-child(4) {
-  width: 25%;
+  width: 0.25rem;
   height: 200px;
   background-image: url("../images/sale-category.jpg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
+  flex-grow: 1;
+  flex-basis: 200px;
 }
 .item:nth-child(5) {
-  width: 25%;
+  width: 0.25rem;
   height: 200px;
   background-image: url("../images/bags-category.jpg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
+  flex-grow: 1;
+  flex-basis: 200px;
 }
 .item:nth-child(6) {
-  width: 50%;
+  width: 0.5em;
   height: 200px;
   background-image: url("../images/womens-category.jpg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
+  flex-grow: 1;
+  flex-basis: 100%;
 }
 /* Featured Products */
 
@@ -228,6 +239,7 @@ footer {
   color: #ffffff;
   background-color: #242424;
   padding: 50px;
+  text-align: center;
 }
 footer p {
   font-family: "Playfair Display", serif;
@@ -246,13 +258,33 @@ i {
   margin: 10px;
 }
 
-.container-footer {
-  display: flex;
-  flex-direction: column;
-  align-items: right;
-  justify-content: right;
-  margin: 0 auto;
+.sns ul {
+  align-items: center;
 }
 
-.footer-list {
+.sns li {
+  float: left;
+}
+.sns span {
+  display: none;
+}
+
+@media screen and (min-width: 600px) {
+  .sns span {
+    display: inline;
+  }
+
+  footer {
+    margin: rem1 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+  }
+  footer li {
+    float: right;
+    list-style: none;
+  }
+}
+@media screen and (min-width: 1240px) {
 }
