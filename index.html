@@ -10,26 +10,27 @@
       src="https://kit.fontawesome.com/74fdfd1d95.js"
       crossorigin="anonymous"
     ></script>
-    <link
-      href="https://fonts.googleapis.com/css?family=Playfair+Display|Raleway:300&display=swap"
-      rel="stylesheet">
     <title>Aloha</title>
   </head>
   <body class="container">
-    <header class="nav">
+    <header>
       <nav>
-        <div class="logo">
+        <div class="header-top">
           <img src="images/aloha-logo.svg" />
-        </div>
-        <ul>
-          <li>About</li>
-          <li>Shop</li>
-          <li>Featured</li>
-          <li>Updates</li>
-        </ul>
-        <div class="cart">
           <img src="images/cart-icon.svg" />
         </div>
+        <hr>
+        <div>
+          <ul class="header-list">
+            <li>About</li>
+            <li>Shop</li>
+            <li>Featured</li>
+            <li>Updates</li>
+          </ul>
+        </div>
+        <!-- <div class="header-top">
+          
+        </div> -->
       </nav>
     </header>
     <!-- Main site content goes here -->
@@ -148,7 +149,7 @@
             <p>Dresses</p>
             <h3>Blue Silk Dress</h3>
             <p>$149.00</p>
-            <button>Add to Cart</button>
+            <button  id=cartBtn>Add to Cart</button>
           </figure>
         </div>
       </section>
@@ -184,5 +185,6 @@
         </ul>
       </div>
     </footer>
+    <script src="JS/main.js"></script>
   </body>
 </html>
