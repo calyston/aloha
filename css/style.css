@@ -147,10 +147,24 @@ hr {
   font-family: "Raleway Medium";
   text-transform: uppercase;
   padding: 10px;
+  z-index: +1;
 }
 
+a:link {
+  color: #b64036;
+  text-decoration: none;
+}
 a.hover {
   color: #b64036;
+  text-decoration: none;
+}
+a:active {
+  color: #b64036;
+  text-decoration: none;
+}
+a:visited {
+  color: #b64036;
+  text-decoration: none;
 }
 
 /* Hero Section */
@@ -174,11 +188,13 @@ a.hover {
   font-size: 14px;
   text-transform: uppercase;
   font-family: "Raleway Medium";
+  text-shadow: 2px 2px 2px #696969;
 }
 .hero-banner h2 {
   color: white;
   text-align: center;
   font-family: "Playfair Display", serif;
+  text-shadow: 2px 2px 2px #696969;
 }
 
 /* About Section*/
@@ -275,17 +291,20 @@ figure img {
   object-fit: contain;
 }
 
+.featured {
+  height: 520px;
+}
+
+.featured h2 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
 .carousel-cell {
   width: 100%;
 }
 
 .flickity-page-dots {
-  bottom: -40px;
-}
-.featured {
-  height: 450px;
-  justify-content: center;
-  flex-flow: row wrap;
+  bottom: -50px;
 }
 
 .center {
@@ -383,7 +402,22 @@ i {
   justify-content: space-around;
   width: auto;
 }
-
+footer a:link {
+  color: #ffffff;
+  text-decoration: underline;
+}
+footer a.hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+footer a:active {
+  color: #ffffff;
+  text-decoration: underline;
+}
+footer a:visited {
+  color: #ffffff;
+  text-decoration: underline;
+}
 .sns li {
   float: left;
 }
@@ -444,6 +478,48 @@ i {
   .about p {
     line-height: 2;
     font-size: 20px;
+  }
+  /*Shop Grid*/
+  .item {
+    height: 24.5vw;
+    margin: 4px 0px;
+  }
+
+  .item:nth-child(1) {
+    flex-basis: 50%;
+  }
+
+  .item:nth-child(2) {
+    flex-basis: 24%;
+  }
+  .item:nth-child(3) {
+    flex-basis: 24%;
+  }
+  .item:nth-child(4) {
+    flex-basis: 24.5%;
+  }
+  .item:nth-child(5) {
+    flex-basis: 24.5%;
+  }
+
+  .item:nth-child(6) {
+    flex-basis: 49%;
+  }
+  /*Featured*/
+
+  .featured {
+    height: 560px;
+  }
+
+  .featured h2 {
+    padding-bottom: 70px;
+  }
+
+  .flickity-page-dots {
+    bottom: -40px;
+  }
+  .carousel-cell {
+    width: 50%;
   }
 
   /* Updates */
@@ -524,5 +600,19 @@ i {
     border-radius: 20px;
     padding: 8px 15px;
     margin: 20px;
+  }
+
+  .header-top {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 1240px;
+  }
+
+  /*About Section*/
+  .about {
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
   }
 }

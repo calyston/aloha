@@ -1,3 +1,26 @@
+//Smooth Scrolling
+
+const navLinks = document.querySelectorAll(".navLinks");
+console.log(navLinks);
+
+// document.querySelectorAll(".navLinks").scrollIntoView({
+//   behavior: "smooth"
+// });
+
+navLinks.forEach(function(listItem) {
+  listItem.addEventListener("click", function Scroll(event) {
+    event.scrollIntoView(listItem);
+  });
+  // add click listener for the element in this iteration of the loop
+  // how can you get the "href" attribute value of the clicked element to create a string that corresponds the id of the correct section?
+  // get the section by its id using the string from the last step
+  // scroll to that section with .scrollIntoView()
+});
+
+function scrollIntoView() {}
+
+//  {
+
 //carousel
 
 var elem = document.querySelector(".main-carousel");
