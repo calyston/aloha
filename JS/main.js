@@ -1,25 +1,42 @@
 //Smooth Scrolling
 
-const navLinks = document.querySelectorAll(".navLinks");
-console.log(navLinks);
+// const navLinks = document.querySelectorAll(".navLinks");
+// console.log(navLinks);
 
 // document.querySelectorAll(".navLinks").scrollIntoView({
 //   behavior: "smooth"
 // });
 
-navLinks.forEach(function(listItem) {
-  listItem.addEventListener("click", function Scroll(event) {
-    event.scrollIntoView(listItem);
-  });
-  // add click listener for the element in this iteration of the loop
-  // how can you get the "href" attribute value of the clicked element to create a string that corresponds the id of the correct section?
-  // get the section by its id using the string from the last step
-  // scroll to that section with .scrollIntoView()
-});
+// navLinks.forEach(function(listItem) {
+//   listItem.addEventListener("click", function Scroll(event) {
+//     event.scrollIntoView(listItem);
+//   });
+//   // add click listener for the element in this iteration of the loop
+//   // how can you get the "href" attribute value of the clicked element to create a string that corresponds the id of the correct section?
+//   // get the section by its id using the string from the last step
+//   // scroll to that section with .scrollIntoView()
+// });
 
-function scrollIntoView() {}
+// document.querySelector("#about").scrollIntoView({ behavior: "smooth" });
+// document.querySelector("#shop").scrollIntoView({ behavior: "smooth" });
+// document.querySelector("#featured").scrollIntoView({ behavior: "smooth" });
+// document.querySelector("#updates").scrollIntoView({ behavior: "smooth" });
+// //  {
 
-//  {
+// const button = document.getElementById("subscribe");
+// const inputText = document.getElementById("input");
+// messageForm.addEventListener("subscribe", function(event) {
+//   event.preventDefault();
+//   alert ("Please enter a valid email address.");
+// } else {
+//   alert ("Thanks for subscribing!");
+// }
+// },
+// button.addEventListener("click", function(event) {
+//   if (inputText.value )
+//     // && if (//input has more than 5 characters)
+//     alert("Thanks for subscribing!");
+// });
 
 //carousel
 
@@ -28,6 +45,7 @@ var flkty = new Flickity(elem, {
   // options
   cellAlign: "left",
   contain: true,
+  adaptiveHeight: true,
   autoPlay: true,
   pauseAutoPlayOnHover: true,
   freeScroll: true,

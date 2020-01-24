@@ -331,12 +331,19 @@ h3 {
 /* Updates */
 .updates {
   color: #ffffff;
-  height: 35vh;
+  height: 275px;
   background-image: url("../images/wave-bkgd.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: scroll;
+  /* background-position-x: -330px;
+  background-position-y: -415px; */
   line-height: 1.6;
   margin-bottom: 5px;
+}
+
+.updates h2 {
+  text-shadow: 2px 2px 2px #696969;
 }
 
 /* Subscribe */
@@ -524,14 +531,10 @@ footer a:visited {
 
   /* Updates */
   .updates {
-    width: 100%;
-    height: 400px;
-    background-image: url("../images/wave-bkgd.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    line-height: 1.6;
-    font-size: 20px;
+    height: 350px;
+    background-size: 150%;
+    background-position-x: -330px;
+    background-position-y: -340px;
   }
 
   /* Subscribe */
@@ -614,5 +617,70 @@ footer a:visited {
     padding: 40px;
     justify-content: center;
     align-items: center;
+  }
+  .about h2 {
+    font-size: 32px;
+  }
+
+  /*Featured*/
+  .featured {
+    height: 620px;
+  }
+
+  .featured h2 {
+    padding-bottom: 70px;
+  }
+
+  .flickity-viewport {
+    height: 360px !important;
+  }
+  .flickity-page-dots {
+    bottom: -40px;
+  }
+  .carousel-cell {
+    width: 25%;
+  }
+  /*Updates*/
+  .updates {
+    width: 100%;
+    height: 400px;
+    background-image: url("../images/wave-bkgd.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    line-height: 1.6;
+    font-size: 20px;
+
+    background-size: 150%;
+    background-position-x: -330px;
+    background-position-y: -730px;
+  }
+
+  /* Subscribe */
+  .center-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .input {
+    border: none;
+    border-radius: 30px;
+    padding: 17px 18px;
+    margin: 20px 0px;
+    width: 35%;
+    position: relative;
+    font-size: 20px;
+  }
+
+  .subscribe {
+    border: none;
+    border-radius: 30px;
+    padding: 12px 18px;
+    margin: 20px 0px;
+    position: absolute;
+    right: 33%;
+    font-size: 20px;
   }
 }
