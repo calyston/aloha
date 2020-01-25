@@ -1,17 +1,28 @@
 //Smooth Scrolling
 
-// const navLinks = document.querySelectorAll(".navLinks");
-// console.log(navLinks);
+function toAbout() {
+  document.querySelector("#about").scrollIntoView({
+    behavior: "smooth"
+  });
+}
 
-// document.querySelectorAll(".navLinks").scrollIntoView({
-//   behavior: "smooth"
-// });
+function toShop() {
+  document.querySelector("#shop").scrollIntoView({
+    behavior: "smooth"
+  });
+}
 
-// document.querySelector("#about").scrollIntoView({ behavior: "smooth" });
-// document.querySelector("#shop").scrollIntoView({ behavior: "smooth" });
-// document.querySelector("#featured").scrollIntoView({ behavior: "smooth" });
-// document.querySelector("#updates").scrollIntoView({ behavior: "smooth" });
-// //  {
+function toFeatured() {
+  document.querySelector("#featured").scrollIntoView({
+    behavior: "smooth"
+  });
+}
+
+function toUpdates() {
+  document.querySelector("#updates").scrollIntoView({
+    behavior: "smooth"
+  });
+}
 
 //Subscribe Button
 
@@ -32,21 +43,15 @@ const cartButton = document.getElementsByClassName("cartButton");
 let clicks = 0;
 console.log(cartButton);
 
-cartButton.button.forEach(function(atcButton) {
-  atcButton.addEventListener("click", function(event) {
-    clicks++;
-    console.log(clicks);
-  });
-});
-
-//
-//
-//   alert("Item added to cart");
-// });
-
-// const itemCounter = document.getElementById("itemCounter");
+function addCount() {
+  clicks++;
+  alert("Item added to cart.");
+  console.log(clicks);
+}
 
 // let itemCounter = clicks;
+
+// const itemCounter = document.getElementById("itemCounter");
 
 //carousel
 
