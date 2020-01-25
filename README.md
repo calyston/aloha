@@ -1,13 +1,19 @@
 # Aloha - Project 1
 
-This is my Aloha project. This is a project on creating a single web page based on a pre-existing design.
+A mobile-first e-commerce web page.
 
-Technologies used:
-HTML, CSS, Javascript ES6.
+### Installation Instructions
 
-Personal Learnings:
-Increased ability at using flex and CSS and organising HTML, as well as practicing Javascript.
+Download this project and then run on a local server of your choice (Mozilla Firefox is recommended for best results).
 
-Written by Christine Lyston
+### Technologies used:
+
+HTML, CSS, JavaScript, Flickity (https://flickity.metafizzy.co/).
+
+### Personal Learnings:
+
+Developed my ability in using HTML and CSS, as well as learning and practicing Javascript.
+
+#### Written by Christine Lyston
 
 Date: 24.01.2020

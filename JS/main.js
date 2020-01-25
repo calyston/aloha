@@ -31,8 +31,9 @@ const inputText = document.getElementById("input");
 console.log(inputText);
 subscribeButton.addEventListener("click", function(event) {
   event.preventDefault();
-  if (inputText.value.includes("@") === true) {
+  if (inputText.value.includes("@") === true && inputText.value.includes(".")) {
     alert("Thanks for subscribing!");
+    inputText.value = "";
   } else {
     alert("Please enter a valid email address.");
   }
