@@ -7,36 +7,46 @@
 //   behavior: "smooth"
 // });
 
-// navLinks.forEach(function(listItem) {
-//   listItem.addEventListener("click", function Scroll(event) {
-//     event.scrollIntoView(listItem);
-//   });
-//   // add click listener for the element in this iteration of the loop
-//   // how can you get the "href" attribute value of the clicked element to create a string that corresponds the id of the correct section?
-//   // get the section by its id using the string from the last step
-//   // scroll to that section with .scrollIntoView()
-// });
-
 // document.querySelector("#about").scrollIntoView({ behavior: "smooth" });
 // document.querySelector("#shop").scrollIntoView({ behavior: "smooth" });
 // document.querySelector("#featured").scrollIntoView({ behavior: "smooth" });
 // document.querySelector("#updates").scrollIntoView({ behavior: "smooth" });
 // //  {
 
-// const button = document.getElementById("subscribe");
-// const inputText = document.getElementById("input");
-// messageForm.addEventListener("subscribe", function(event) {
-//   event.preventDefault();
-//   alert ("Please enter a valid email address.");
-// } else {
-//   alert ("Thanks for subscribing!");
-// }
-// },
-// button.addEventListener("click", function(event) {
-//   if (inputText.value )
-//     // && if (//input has more than 5 characters)
-//     alert("Thanks for subscribing!");
+//Subscribe Button
+
+const subscribeButton = document.getElementById("subscribe");
+const inputText = document.getElementById("input");
+console.log(inputText);
+subscribeButton.addEventListener("click", function(event) {
+  event.preventDefault();
+  if (inputText.value.includes("@") === true) {
+    alert("Thanks for subscribing!");
+  } else {
+    alert("Please enter a valid email address.");
+  }
+});
+
+//Add to Cart
+const cartButton = document.getElementsByClassName("cartButton");
+let clicks = 0;
+console.log(cartButton);
+
+cartButton.button.forEach(function(atcButton) {
+  atcButton.addEventListener("click", function(event) {
+    clicks++;
+    console.log(clicks);
+  });
+});
+
+//
+//
+//   alert("Item added to cart");
 // });
+
+// const itemCounter = document.getElementById("itemCounter");
+
+// let itemCounter = clicks;
 
 //carousel
 
@@ -60,19 +70,3 @@ var flkty = new Flickity(".main-carousel", {
 
 //Button add to cart counter
 console.log("working");
-
-// const cartBtn = document.getElementById("cartBtn");
-// let clicks = 0;
-
-// cartBtn.addEventListener("click", function addToCart(event) {
-//   clicks++;
-//   console.log(clicks);
-
-//   if (clicks) {
-//     alert("Item added to cart");
-//   }
-// });
-
-// const itemCounter = document.getElementById("itemCounter");
-
-// let itemCounter = clicks;
