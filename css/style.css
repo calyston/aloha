@@ -168,6 +168,20 @@ a:visited {
   text-decoration: none;
 }
 
+.cart-counter img {
+  position: relative;
+}
+
+.cart-circle {
+  width: 20px;
+  height: 20px;
+  color: #ffffff;
+  background-color: #e2574c;
+  border-radius: 50%;
+  position: absolute;
+  right: 0%;
+}
+
 /* Hero Section */
 .hero-banner {
   width: 100%;
