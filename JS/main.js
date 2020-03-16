@@ -29,7 +29,6 @@ function toUpdates() {
 
 const subscribeButton = document.getElementById("subscribe");
 const inputText = document.getElementById("input");
-console.log(inputText);
 subscribeButton.addEventListener("click", function (event) {
   event.preventDefault();
   if (inputText.value.includes("@") === true && inputText.value.includes(".")) {
@@ -45,19 +44,13 @@ subscribeButton.addEventListener("click", function (event) {
 const cartButton = document.getElementsByClassName("cartButton");
 let cartCounter = document.getElementById("cart-circle");
 let clicks = 0;
-console.log(cartButton);
 
 function addCount() {
   clicks++;
   alert("Item added to cart.");
-  console.log(clicks);
   cartCounter.style.backgroundColor = "#e2574c";
   cartCounter.innerHTML = (clicks);
 }
-
-// let itemCounter = clicks;
-
-// const itemCounter = document.getElementById("itemCounter");
 
 
 //Flickity Carousel

@@ -2,6 +2,8 @@
 
 Aloha is a responsive mock e-commerce web page for fashion clothing.
 
+![](AlohaMobileGif.gif)
+
 ## Technologies Used
 
 HTML, CSS, JavaScript, Flickity (https://flickity.metafizzy.co/), GIT, Bash.
