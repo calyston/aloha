@@ -179,7 +179,9 @@ a:visited {
   background-color: #e2574c;
   border-radius: 50%;
   position: absolute;
-  right: 0%;
+  top: 10px;
+  right: 8px;
+  z-index: 2;
 }
 
 /* Hero Section */
