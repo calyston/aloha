@@ -1,4 +1,4 @@
-# Aloha - Project 1
+# Aloha
 
 Aloha is a responsive mock e-commerce web page for fashion clothing.
 
