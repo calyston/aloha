@@ -193,6 +193,7 @@ a:visited {
 }
 .hero-banner h2 {
   color: white;
+  font-size: 40px;
   text-align: center;
   font-family: "Playfair Display", serif;
   text-shadow: 2px 2px 2px #696969;
@@ -484,6 +485,10 @@ footer a:visited {
   /* Hero Section */
   .hero-banner p {
     font-size: 20px;
+  }
+
+  .hero-banner h2 {
+    font-size: 50px;
   }
 
   /* About */
