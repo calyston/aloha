@@ -172,14 +172,16 @@ a:visited {
   position: relative;
 }
 
-.cart-circle {
+#cart-circle {
   width: 20px;
   height: 20px;
   color: #ffffff;
-  background-color: #e2574c;
+  text-align: center;
+  font-weight: bold;
+  background-color: transparent;
   border-radius: 50%;
   position: absolute;
-  top: 10px;
+  top: 8px;
   right: 8px;
   z-index: 2;
 }

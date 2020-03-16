@@ -24,12 +24,13 @@ function toUpdates() {
   });
 }
 
+
 //Subscribe Button
 
 const subscribeButton = document.getElementById("subscribe");
 const inputText = document.getElementById("input");
 console.log(inputText);
-subscribeButton.addEventListener("click", function(event) {
+subscribeButton.addEventListener("click", function (event) {
   event.preventDefault();
   if (inputText.value.includes("@") === true && inputText.value.includes(".")) {
     alert("Thanks for subscribing!");
@@ -39,8 +40,10 @@ subscribeButton.addEventListener("click", function(event) {
   }
 });
 
+
 //Add to Cart
 const cartButton = document.getElementsByClassName("cartButton");
+let cartCounter = document.getElementById("cart-circle");
 let clicks = 0;
 console.log(cartButton);
 
@@ -48,13 +51,16 @@ function addCount() {
   clicks++;
   alert("Item added to cart.");
   console.log(clicks);
+  cartCounter.style.backgroundColor = "#e2574c";
+  cartCounter.innerHTML = (clicks);
 }
 
 // let itemCounter = clicks;
 
 // const itemCounter = document.getElementById("itemCounter");
 
-//carousel
+
+//Flickity Carousel
 
 var elem = document.querySelector(".main-carousel");
 var flkty = new Flickity(elem, {
@@ -68,11 +74,7 @@ var flkty = new Flickity(elem, {
   wrapAround: true
 });
 
-// element argument can be a selector string
 //   for an individual element
 var flkty = new Flickity(".main-carousel", {
   // options
 });
-
-//Button add to cart counter
-console.log("working");
