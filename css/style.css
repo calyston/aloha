@@ -528,9 +528,11 @@ footer a:visited {
   /* Featured */
   .featured {
     height: 560px;
+    margin-bottom: 30px;
   }
 
   .featured h2 {
+    padding-top: 70px;
     padding-bottom: 70px;
   }
 
