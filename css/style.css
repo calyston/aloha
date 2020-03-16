@@ -12,7 +12,7 @@
 }
 
 @font-face {
-  font-family: "Raleway Light Italic";
+  font-family: "Raleway Light";
   src: url("../fonts/Raleway-LightItalic.eot");
   src: url("../fonts/Raleway-LightItalic.eot?#iefix")
       format("embedded-opentype"),
@@ -37,7 +37,7 @@
 }
 
 @font-face {
-  font-family: "Raleway Medium Italic";
+  font-family: "Raleway Medium";
   src: url("../fonts/Raleway-MediumItalic.eot");
   src: url("../fonts/Raleway-MediumItalic.eot?#iefix")
       format("embedded-opentype"),
@@ -50,7 +50,7 @@
 }
 
 @font-face {
-  font-family: "Playfair Display Regular";
+  font-family: "Playfair Display";
   src: url("../fonts/PlayfairDisplay-Regular.eot");
   src: url("../fonts/PlayfairDisplay-Regular.eot?#iefix")
       format("embedded-opentype"),
@@ -64,7 +64,7 @@
 }
 
 @font-face {
-  font-family: "Playfair Display Bold";
+  font-family: "Playfair Display";
   src: url("../fonts/PlayfairDisplay-Bold.eot");
   src: url("../fonts/PlayfairDisplay-Bold.eot?#iefix")
       format("embedded-opentype"),
@@ -77,7 +77,7 @@
 }
 
 @font-face {
-  font-family: "Playfair Display Italic";
+  font-family: "Playfair Display";
   src: url("../fonts/PlayfairDisplay-Italic.eot");
   src: url("../fonts/PlayfairDisplay-Italic.eot?#iefix")
       format("embedded-opentype"),
@@ -91,7 +91,7 @@
 }
 
 @font-face {
-  font-family: "Playfair Display Bold Italic";
+  font-family: "Playfair Display";
   src: url("../fonts/PlayfairDisplay-BoldItalic.eot");
   src: url("../fonts/PlayfairDisplay-BoldItalic.eot?#iefix")
       format("embedded-opentype"),
@@ -105,7 +105,7 @@
 }
 
 .container {
-  max-width: 1240px;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -200,11 +200,11 @@ a:visited {
 
 /* About */
 .italic {
-  font-family: "Playfair Display Italic";
+  font-style: italic;
 }
 
 .bold {
-  font-family: "Playfair Display Bold";
+  font-weight: bold;
 }
 
 .about {
