@@ -2,7 +2,12 @@
 
 Aloha is a responsive mock e-commerce web page for fashion clothing.
 
+### Mobile:
 ![](AlohaMobileGif.gif)
+
+### Desktop:
+![](AlohaDesktopGif.gif)
+
 
 ## Technologies Used
 
@@ -14,7 +19,7 @@ This project was my first time building an e-commerce web page whilst following 
 
 ## Installation Instructions
 
-To run Aloha, download this project and then run on a local server of your choice (Mozilla Firefox is recommended for best results).
+To run Aloha, download this project and then run on a local server of your choice.
 
 #### Written by Christine Lyston
 #### Date: January 24th 2020
