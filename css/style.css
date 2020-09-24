@@ -357,8 +357,7 @@ h3 {
   background-repeat: no-repeat;
   background-size: 275%;
   background-attachment: scroll;
-  background-position-x: -330px;
-  background-position-y: -415px;
+  background-position: bottom;
   line-height: 1.6;
   margin-bottom: 5px;
 }
@@ -400,6 +399,7 @@ h3 {
   border-radius: 20px;
   padding: 8px 18px;
   margin: 20px 0px;
+  margin-right: 0.1rem;
   position: absolute;
   right: 9%;
 }
@@ -459,6 +459,62 @@ footer a:visited {
 
 
 /* Tablet Viewport */
+
+@media screen and (min-width: 415px) {
+/* Updates */
+.updates {
+  color: #ffffff;
+  height: 275px;
+  background-image: url("../images/wave-bkgd.jpg");
+  background-repeat: no-repeat;
+  background-size: 275%;
+  background-attachment: scroll;
+  background-position: bottom;
+  line-height: 1.6;
+  margin-bottom: 5px;
+}
+
+.updates h2 {
+  text-shadow: 2px 2px 2px #696969;
+}
+
+.updates p {
+  padding: 0px 30px;
+}
+
+/* Subscribe */
+.center-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input {
+  color: #2d2d2d;
+  font-family: "Raleway", sans-serif;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 20px;
+  padding: 11px 18px;
+  margin: 20px 0px;
+  width: 75%;
+  position: relative;
+}
+
+.subscribe {
+  color: #ffffff;
+  font-weight: bold;
+  font-family: "Raleway", sans-serif;
+  background-color: #e2574c;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 18px;
+  margin: 20px 0px;
+  position: absolute;
+  right: 9%;
+}
+}
 
 @media screen and (min-width: 600px) {
   body {
@@ -570,8 +626,7 @@ footer a:visited {
   .updates {
     height: 350px;
     background-size: 150%;
-    background-position-x: -330px;
-    background-position-y: -340px;
+    background-position: bottom;
   }
 
   .updates p {
@@ -695,13 +750,11 @@ footer a:visited {
     width: 100%;
     height: 400px;
     background-image: url("../images/wave-bkgd.jpg");
-    background-position: center;
+    background-position: bottom;
     background-repeat: no-repeat;
     line-height: 1.6;
     font-size: 20px;
     background-size: 150%;
-    background-position-x: -330px;
-    background-position-y: -730px;
   }
 
   .updates p {
@@ -731,6 +784,7 @@ footer a:visited {
     border-radius: 30px;
     padding: 12px 18px;
     margin: 20px 0px;
+    margin-right: 0.3rem;
     position: absolute;
     right: 32%;
     font-size: 20px;

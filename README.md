@@ -10,9 +10,7 @@ HTML, CSS, JavaScript, Flickity (https://flickity.metafizzy.co/), GIT, Bash.
 
 ## Personal Learnings
 
-Developed my ability in using HTML and CSS, as well as learning and practicing Javascript.
-
-This project was my first time building a e-commerce web page whilst following a design. I leant to create the web page mobile first, and later worked on the tablet and desktop versions. This was also my first time using JavaScript to implement certain functions on a web page. I found the flexbox grid of the shop categories particularly challenging, but I managed to overcome it and learnt a lot of HTML and CSS through this project. 
+This project was my first time building an e-commerce web page whilst following a design. I leant to create the web page mobile first, and later worked on the tablet and desktop versions. This was also my first time using JavaScript to implement certain functions on a web page. I found the flexbox grid of the shop categories particularly challenging, but I managed to overcome it and learnt a lot of HTML and CSS through this project. 
 
 ## Installation Instructions
 
