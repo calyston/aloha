@@ -2,6 +2,10 @@
 
 Aloha is a responsive mock e-commerce web page for fashion clothing.
 
+### Live Preview: 
+
+https://calyston-aloha.netlify.app/
+
 ### Mobile:
 ![](AlohaMobileGif.gif)
 
